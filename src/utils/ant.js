@@ -1,7 +1,5 @@
 import {
-
   Button,
-
 } from "ant-design-vue";
 const ant = {
   install(Vue) {
