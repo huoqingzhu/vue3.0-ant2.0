@@ -1,0 +1,26 @@
+html {
+  font-size: calc(100vw / 7.5); //设置根字体是屏幕宽度/7.5
+}
+.ant-menu-horizontal {
+  border-bottom: none;
+}
+.ant-menu-horizontal > .ant-menu-item,
+.ant-menu-horizontal > .ant-menu-submenu {
+  height: 60px;
+  line-height: 60px;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hiddens {
+  word-break: keep-all; /* 不换行 */
+  white-space: nowrap; /* 不换行 */
+  overflow: hidden; /* 内容超出宽度时隐藏超出部分的内容 */
+  text-overflow: ellipsis; /* 当对象内文本溢出时显示省略标记(...) ；需与    overflow:hidden;一起使用。*/
+}
+.title {
+  font-size: 18px;
+  color: rgb(25, 110, 17);
+}
