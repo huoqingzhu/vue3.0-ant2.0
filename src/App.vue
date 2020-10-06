@@ -1,13 +1,13 @@
 <template>
 <div class="home">
-  <!-- keep-alive要改成下面这样 -->
-  <router-view v-slot="{ Component }">
-    <transition>
-      <keep-alive>
-        <component :is="Component" />
-      </keep-alive>
-    </transition>
-  </router-view>
+  <!-- keep-alive要改成下面这样  <router-view v-slot="{ Component }">
+      <transition>
+        <keep-alive>
+          <component :is="Component" />
+        </keep-alive>
+      </transition>
+    </router-view>-->
+  <RouterView />
 </div>
 </template>
 
@@ -16,6 +16,7 @@ html,
 body {
   width: 100%;
   height: 100%;
+  touch-action: none;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   top: 0;

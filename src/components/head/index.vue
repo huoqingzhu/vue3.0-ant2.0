@@ -27,8 +27,12 @@ export default {
   },
   setup() {
     const router = useRouter();
-    const userChange = function () {
-      router.push("/login").catch(() => {});
+    let userChange = () => {
+      router
+        .push({
+          name: "Login",
+        })
+        .catch(() => {});
     };
     return {
       userChange,

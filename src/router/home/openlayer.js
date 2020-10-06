@@ -1,8 +1,8 @@
 export default [
   {
-    path: "/map",
-    name: "列表",
-    component: () => import("../../views/Map/map.vue"),
+    path: "/draw",
+    name: "绘制地图",
+    component: () => import("../../views/openlayer/index.vue"),
     meta: {
       auth: true,
       title: "地图",

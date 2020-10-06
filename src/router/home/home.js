@@ -1,7 +1,7 @@
 export default [
   {
     path: "/home",
-    name: "Home",
+    name: "首页",
     component: () => import("../../views/home/index.vue"),
     meta: {
       auth: true,

@@ -489,3 +489,11 @@ module.exports = {
 
 cdn 里面并没有东西，是因为我没有找到最新的 vue 全家桶的 cdn。  
 开启 gzip，服务器一定要配置 gzip，我推荐不要删除原来的文件。不删除源文件包的大小大概在 800k 左右。
+
+# vue3.0 引入 openlayers
+
+npm i -s ol
+
+# 引入 tree.js
+
+npm i -s three

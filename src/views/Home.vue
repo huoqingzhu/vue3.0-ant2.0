@@ -39,6 +39,7 @@ export default {
     top: 0;
     width: 100%;
     height: 60px;
+    background-color: #fff;
     box-shadow: 0px 3px 3px #ccc;
   }
 
