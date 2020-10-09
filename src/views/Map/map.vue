@@ -1,6 +1,6 @@
 <template>
 <div>{{ test[0] }}</div>
-<div id="map"></div>
+<div id="maps"></div>
 </template>
 
 <script>
@@ -32,7 +32,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#map {
+#maps {
   width: 100%;
   height: 700px;
 }

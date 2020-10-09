@@ -31,7 +31,7 @@ const mapHosk = () => {
   }
   // 获取参数
   const datas = async () => {
-    let container = document.getElementById("map");
+    let container = document.getElementById("maps");
     const listData = await map("/map/floor");
     getData(listData)
     Fixed()
