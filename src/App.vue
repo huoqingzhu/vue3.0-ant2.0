@@ -2,10 +2,9 @@
 <div class="home">
   <!-- keep-alive要改成下面这样
    -->
-
   <router-view v-slot="{ Component }">
     <transition>
-      <keep-alive>
+      <keep-alive :include="$store.state.keepLiveRoute">
         <component :is="Component" />
       </keep-alive>
     </transition>

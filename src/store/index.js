@@ -2,7 +2,8 @@ import { createStore } from 'vuex';
 
 export default createStore({
   state: {
-    open: false
+    open: false,
+    keepLiveRoute: []
   },
   mutations: {
     setOpen(state, val) {
